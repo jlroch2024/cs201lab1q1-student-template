@@ -30,7 +30,6 @@ public class NumbersArray {
         return max;
     }
 
-
     public static Integer[] findDuplicates(Integer[] input) {
         Set<Integer> seenBefore = new HashSet<>();
         Set<Integer> duplicateNumbers = new HashSet<>();
