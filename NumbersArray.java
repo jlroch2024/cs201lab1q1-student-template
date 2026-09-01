@@ -49,11 +49,9 @@ public class NumbersArray {
                 if (!uniqueNumbers.add(num)) {
                 uniqueNumbers.remove(num);
                 duplicateNumbers.add(num);
+            }   
             }
-
-            
         }
         return uniqueNumbers.toArray(new Integer[0]);
-        }
     }
 }
